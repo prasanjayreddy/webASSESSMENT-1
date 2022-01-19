@@ -6,7 +6,7 @@
         h3{color: rgb(255, 102, 0);}
         ol,ul,dl{text-align: left;}
         table, th, td {
-            border: 1px solid black;
+            border: 1px solid red;
             border-collapse: collapse;
             text-align: center;
             padding: 16px;
@@ -20,12 +20,18 @@
             display: block;
             margin-left: auto;
         }
-        #one,#three{padding: 3rem;}
+        #one,#three,#five{padding: 3rem;}
         #separate{height: .5rem;width: 100%;background-color: black;}
-        #line{height: 4px;width: 100%;background-color: chocolate;}
+        b{
+            color: black;
+            position: absolute;
+            padding-left: 4rem;
+            padding-top: 3rem;
+        }
     </style>
 </head>
 <body style="margin: 0px;">
+    <h1>19BBS0093 - Prasanjay(LAB DA - 1)</h1>
     <section id='one'>
     <h3>1. HTML Text formatting exercises</h3>
     <h4></h4>
@@ -67,7 +73,8 @@
         <li>May 21</li>
     </ol>
     <br><br><div id="separate"></div><br><br>
-    <div class="col"><h1>“Kindness is as important as knowledge.”</h1><div class="col" id="line"></div>
+    <h1>“Kindness is as important as knowledge.”</h1>
+    <hr width=100% />
     <p>
 I've been seeing tons and tons of negativity going around lately. All over the internet, regardless of the platform that its being displayed on.
 It seems like the news is just completely unwatchable these days, although I've considered it to be unwatchable for the past several years.
@@ -162,10 +169,10 @@ I just brush it off and go about my business
     <section id="four">
         <h3>4. HTML TABLE EXERCISES</h3>
     <table>
-        <tr class="t1">
+        <tr>
             <th colspan="6"><i>stock's today</i></th>
         </tr>
-        <tr class="t1">
+        <tr>
             <th>NAME</th>
             <th>SYMBOL</th>
             <th>CURRENT</th>
@@ -173,7 +180,7 @@ I just brush it off and go about my business
             <th>52WK Lo</th>
             <th>P/E</th>
         </tr>
-        <tr class="t1">
+        <tr>
             <td>microsoft</td>
             <td>MSFT</td>
             <td>86</td>
@@ -181,7 +188,7 @@ I just brush it off and go about my business
             <td>75</td>
             <td>56.09</td>
         </tr>
-        <tr class="t1">
+        <tr>
             <td>cisco</td>
             <td>CSCO</td>
             <td>72</td>
@@ -189,7 +196,7 @@ I just brush it off and go about my business
             <td>24</td>
             <td>400</td>
         </tr>
-        <tr class="t1">
+        <tr>
             <td>zoom</td>
             <td>ZOOM</td>
             <td>63</td>
@@ -197,7 +204,7 @@ I just brush it off and go about my business
             <td>38</td>
             <td>350</td>
         </tr>
-        <tr class="t1">
+        <tr>
             <td>qualcomm</td>
             <td>QLCM</td>
             <td>86</td>
@@ -205,7 +212,7 @@ I just brush it off and go about my business
             <td>75</td>
             <td>56.09</td>
         </tr>
-        <tr class="t1">
+        <tr>
             <td>dell</td>
             <td>DELL</td>
             <td>86</td>
@@ -224,6 +231,19 @@ I just brush it off and go about my business
             <td><img src="https://cdn.pixabay.com/photo/2016/04/02/09/43/apple-1302430__340.jpg" alt="apple"></td>
         </tr>
     </table>
+    </section>
+
+    <section id="five">
+        <h3>5. PROFILE PAGE</h3>
+        <div>
+            <img src="images/download.jpeg" alt="man">
+            <b>
+                <a href="https://vtop.vit.ac.in/vtop/initialProcess" target="_blank">Education</a><br><br>
+                <a href="https://www.codechef.com/" target="_blank">Hobbies</a><br><br>
+                <a href="https://prasanjayreddy.github.io/lolcat/" target="_blank">Achievement</a><br><br>
+                <a href="ihttps://prasanjayreddy.github.io/task4/" target="_blank">My Ideals</a><br><br>
+            </b>
+        </div>
     </section>
 </body>
 </html>
